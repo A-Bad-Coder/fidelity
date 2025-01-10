@@ -23,17 +23,17 @@ body {
 .navbar {
     background-color: #73b4ffb1;
     margin-top: 1%;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
     border-radius: 10px;
     overflow: hidden;
-    width: 96%;
+    width: 90%;
     height: 40px;
 }
 
 .navbar:hover {
     background-color: #58a3fab1;
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .navbar a {
@@ -48,7 +48,7 @@ body {
 
 .navbar a:hover {
     background-color: #389fffb1;
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 
 .navbar p {
@@ -61,7 +61,6 @@ body {
     padding-bottom: 40%; 
     font-weight: bold; 
     margin-top: 5px;
-    background-color: cornflowerblue;
     padding-left: 10px;
     padding-right: 10px;
 }
