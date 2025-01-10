@@ -33,7 +33,7 @@ body {
 
 .navbar:hover {
     background-color: #58a3fab1;
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 
 .navbar a {
