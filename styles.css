@@ -68,12 +68,12 @@ body {
 .link-button {
     background-color: #008cff;
     color: white;
-    padding: 15px 25px;
+    padding: 8px 14px;
     text-decoration: none;
-    border-radius: 8px;
+    border-radius: 12px;
     border-color: aliceblue;
-    border: 2px;
-    font-size: 30px;
+    border-width: 2px;
+    font-size: 25px;
   }
 
     
