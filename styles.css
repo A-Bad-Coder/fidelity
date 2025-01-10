@@ -65,16 +65,22 @@ body {
 }
 
 
-button {
-    border-radius: 12px;
-    background-color: #ffffff;
-    color: rgb(24, 40, 58);
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    text-align: center;
-}
+.link-button {
+    background-color: #008cff;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    border-color: aliceblue;
+    border: 2px;
+    font-size: 30px;
+  }
+
+    
+.link-button:hover {
+    transform: scale(1.1);
+    background-color: #008cff8b;
+  }
 
 .center-contain { 
     height: 50px;
@@ -88,4 +94,24 @@ button {
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+
+.container {
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+
+}
+
+.container img {
+height: 125px;
+width: 125px;
+}
+
+.container:hover {
+transform: scale(1.1);
 }
