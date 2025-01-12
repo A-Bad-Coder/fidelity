@@ -32,7 +32,7 @@ body {
 }
 
 .navbar:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .navbar a {
@@ -47,7 +47,7 @@ body {
 
 .navbar a:hover {
     background-color: #389fffb1;
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 
 .navbar p {
@@ -117,6 +117,18 @@ transform: scale(1.1);
 }
 
 .link-container {
-    height: 175px;
-    width: 150px;
-}
+    background-color: #008cff;
+    color: white;
+    padding: 8px 14px;
+    text-decoration: none;
+    border-radius: 12px;
+    border-color: aliceblue;
+    border-width: 2px;
+    font-size: 25px;
+  }
+
+    
+a .link-container:hover {
+    transform: scale(1.1);
+    background-color: #008cff8b;
+  }
