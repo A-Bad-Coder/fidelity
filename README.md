@@ -1,2 +1,3 @@
 # fidelity
-A simple, yet entertaining game website.
+A simple, yet sigma game website.
+Made by Aleoric/SwiftQuietKid

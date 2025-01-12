@@ -47,7 +47,7 @@ body {
 
 .navbar a:hover {
     background-color: #389fffb1;
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .navbar p {
@@ -114,4 +114,9 @@ width: 125px;
 
 .container:hover {
 transform: scale(1.1);
+}
+
+.link-container {
+    height: 175px;
+    width: 150px;
 }
