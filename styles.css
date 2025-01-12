@@ -57,13 +57,12 @@ body {
     text-decoration: none;
     vertical-align: baseline;
     border-radius: 10px;
-    padding-bottom: 40%; 
-    font-weight: bold; 
+    padding-bottom: 40%;
+    font-weight: bold;
     margin-top: 5px;
     padding-left: 10px;
     padding-right: 10px;
 }
-
 
 .link-button {
     background-color: #008cff;
@@ -74,20 +73,19 @@ body {
     border-color: aliceblue;
     border-width: 2px;
     font-size: 25px;
-  }
+}
 
-    
 a .link-button:hover {
     transform: scale(1.1);
     background-color: #008cff8b;
-  }
+}
 
-.center-contain { 
+.center-contain {
     height: 50px;
     position: relative;
-  }
+}
 
-  .center {
+.center {
     margin: 0;
     position: absolute;
     top: 50%;
@@ -97,23 +95,29 @@ a .link-button:hover {
 }
 
 .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.game-box {
     padding: 10px;
     background-color: white;
     text-align: center;
-    margin: auto;
     height: 175px;
     width: 150px;
     border-radius: 10px;
-
 }
 
-.container img {
-height: 125px;
-width: 125px;
+.game-box img {
+    height: 125px;
+    width: 125px;
 }
 
-.container:hover {
-transform: scale(1.1);
+.game-box:hover {
+    transform: scale(1.1);
 }
 
 .link-container {
@@ -125,10 +129,9 @@ transform: scale(1.1);
     border-color: aliceblue;
     border-width: 2px;
     font-size: 25px;
-  }
+}
 
-    
 a .link-container:hover {
     transform: scale(1.1);
     background-color: #c3ced85f;
-  }
+}
