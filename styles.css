@@ -118,7 +118,7 @@ transform: scale(1.1);
 
 .link-container {
     background-color: #008cff;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 8px 14px;
     text-decoration: none;
     border-radius: 12px;
@@ -130,5 +130,5 @@ transform: scale(1.1);
     
 a .link-container:hover {
     transform: scale(1.1);
-    background-color: #008cff8b;
+    background-color: #c3ced85f;
   }
