@@ -120,6 +120,12 @@ a .link-button:hover {
     transform: scale(1.1);
 }
 
+.game-box a:hover {
+    transform: scale(1.2);
+    background-color: darkblue;
+    color: white;
+}
+
 .link-container {
     background-color: #008cff;
     color: rgb(0, 0, 0);
