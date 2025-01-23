@@ -141,3 +141,16 @@ a .link-container:hover {
     transform: scale(1.1);
     background-color: #c3ced85f;
 }
+
+.game-link {
+    color: black;
+    width: 90%;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a.game-link:hover {
+    transform: scale(1.1);
+}
