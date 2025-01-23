@@ -144,11 +144,12 @@ a .link-container:hover {
 
 .game-link {
     color: black;
-    width: 90%;
-    height: 30px;
-    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    font-size: 25px;
     text-align: center;
     text-decoration: none;
+    margin-top: 70%;
 }
 
 a.game-link:hover {
